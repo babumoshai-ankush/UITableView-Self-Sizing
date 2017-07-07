@@ -1,7 +1,7 @@
 ## UITableView-Self-Sizing
 Auto resizing table view content and auto row height example. Minimum iOS version 8.0.
 
-[See Preview on Online Simulator](https://appetize.io/embed/tr3mhcm8ewggykrjfz1wh2u4wm?device=iphone5s&scale=75&orientation=portrait&osVersion=9.3)
+[See Preview in Online Simulator](https://appetize.io/embed/tr3mhcm8ewggykrjfz1wh2u4wm?device=iphone5s&scale=75&orientation=portrait&osVersion=9.3)
 
 ## Installation
 ```
