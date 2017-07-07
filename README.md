@@ -7,4 +7,4 @@ $git clone https://github.com/babumoshai-ankush/UITableView-Self-Sizing.git
 ```
 
 **Author**
-Ankush Chakraborty
+[Ankush Chakraborty](https://github.com/babumoshai-ankush/)
