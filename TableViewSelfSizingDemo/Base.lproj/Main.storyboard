@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Bariol_Bold.otf">
+            <string>Bariol-Bold</string>
+        </array>
+        <array key="Bariol_Regular_Italic.otf">
+            <string>Bariol-Italic</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TableViewSelfSizingDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Vrm-MZ-Xjg">
+                                <rect key="frame" x="0.0" y="20" width="375" height="577"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellIdentifier" rowHeight="64" id="VM0-c6-nAR" customClass="CustomTableViewCell" customModule="TableViewSelfSizingDemo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="64"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VM0-c6-nAR" id="r5P-7g-KRm">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wqs-NW-BnN">
+                                                    <rect key="frame" x="8" y="8" width="359" height="15"/>
+                                                    <fontDescription key="fontDescription" name="Bariol-Bold" family="Bariol" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=regular">
+                                                        <fontDescription key="fontDescription" name="Bariol-Bold" family="Bariol" pointSize="22"/>
+                                                    </variation>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vdi-Un-oYj">
+                                                    <rect key="frame" x="8" y="28" width="359" height="28"/>
+                                                    <fontDescription key="fontDescription" name="Bariol-Italic" family="Bariol" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=regular">
+                                                        <fontDescription key="fontDescription" name="Bariol-Italic" family="Bariol" pointSize="22"/>
+                                                    </variation>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="topMargin" secondItem="wqs-NW-BnN" secondAttribute="top" id="BCd-nG-JZA"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Vdi-Un-oYj" secondAttribute="bottom" id="OtZ-jG-PXt"/>
+                                                <constraint firstItem="Vdi-Un-oYj" firstAttribute="top" secondItem="wqs-NW-BnN" secondAttribute="bottom" constant="5" id="XtU-Lh-6tE"/>
+                                                <constraint firstItem="wqs-NW-BnN" firstAttribute="width" secondItem="r5P-7g-KRm" secondAttribute="width" multiplier="359:375" id="Z2q-h4-KKM"/>
+                                                <constraint firstAttribute="leadingMargin" secondItem="wqs-NW-BnN" secondAttribute="leading" id="h7M-fw-Vba"/>
+                                                <constraint firstItem="Vdi-Un-oYj" firstAttribute="width" secondItem="r5P-7g-KRm" secondAttribute="width" multiplier="359:375" id="niW-lE-bhi"/>
+                                                <constraint firstAttribute="leadingMargin" secondItem="Vdi-Un-oYj" secondAttribute="leading" id="qMI-kv-2km"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="lblDescription" destination="Vdi-Un-oYj" id="Ls5-cx-2vT"/>
+                                            <outlet property="lblTitle" destination="wqs-NW-BnN" id="4B9-t3-4ot"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="gM8-Qj-gL9"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="ixG-hX-Kh1"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ghP-FN-z1Y">
+                                <rect key="frame" x="0.0" y="597" width="375" height="70"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Font Size" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="87M-ww-BAA">
+                                        <rect key="frame" x="26" y="25" width="120" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="87M-ww-BAA" secondAttribute="height" multiplier="120:21" id="aZk-za-Oan"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Bariol-Bold" family="Bariol" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="Bariol-Bold" family="Bariol" pointSize="23"/>
+                                        </variation>
+                                    </label>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="15" minValue="10" maxValue="50" translatesAutoresizingMaskIntoConstraints="NO" id="flY-We-Ftp">
+                                        <rect key="frame" x="152" y="20" width="200" height="31"/>
+                                        <color key="tintColor" red="0.1354012979853694" green="0.85018952516129775" blue="0.47312357125205046" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="flY-We-Ftp" secondAttribute="height" multiplier="196:30" id="rjj-Ox-3Ak"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="sliderFontDidValueChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="oQp-tl-l5r"/>
+                                        </connections>
+                                    </slider>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.1058823529" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="87M-ww-BAA" firstAttribute="leading" secondItem="ghP-FN-z1Y" secondAttribute="centerX" multiplier="26:188" id="3qq-5V-Reu"/>
+                                    <constraint firstItem="flY-We-Ftp" firstAttribute="leading" secondItem="ghP-FN-z1Y" secondAttribute="centerX" multiplier="154:188" id="G1w-zT-QjR"/>
+                                    <constraint firstItem="flY-We-Ftp" firstAttribute="width" secondItem="ghP-FN-z1Y" secondAttribute="width" multiplier="196:375" id="R93-FN-eSp"/>
+                                    <constraint firstItem="87M-ww-BAA" firstAttribute="width" secondItem="ghP-FN-z1Y" secondAttribute="width" multiplier="120:375" id="iL2-jh-Qqh"/>
+                                    <constraint firstItem="flY-We-Ftp" firstAttribute="centerY" secondItem="ghP-FN-z1Y" secondAttribute="centerY" id="oW6-69-vy2"/>
+                                    <constraint firstItem="87M-ww-BAA" firstAttribute="centerY" secondItem="ghP-FN-z1Y" secondAttribute="centerY" id="quP-y2-F1O"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Vrm-MZ-Xjg" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="3PK-hT-sUM"/>
+                            <constraint firstItem="ghP-FN-z1Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BDl-0j-AK1"/>
+                            <constraint firstItem="ghP-FN-z1Y" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="70:667" id="D3M-sU-yej"/>
+                            <constraint firstItem="Vrm-MZ-Xjg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dh4-Od-sy1"/>
+                            <constraint firstItem="Vrm-MZ-Xjg" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="577:667" id="b6b-9x-pdR"/>
+                            <constraint firstItem="ghP-FN-z1Y" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="e8x-OH-GqI"/>
+                            <constraint firstItem="Vrm-MZ-Xjg" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="20:334" id="mMB-86-OdU"/>
+                            <constraint firstItem="ghP-FN-z1Y" firstAttribute="top" secondItem="Vrm-MZ-Xjg" secondAttribute="bottom" id="rgG-n6-HLc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblFontSize" destination="87M-ww-BAA" id="daU-qq-PJb"/>
+                        <outlet property="sliderFont" destination="flY-We-Ftp" id="Acf-oC-e5b"/>
+                        <outlet property="tblView" destination="Vrm-MZ-Xjg" id="WS8-eX-wy0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>What is Lorem Ipsum?</string>
+		<key>desc</key>
+		<string>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Where does it come from? Where does it come from? Where does it come from?</string>
+		<key>desc</key>
+		<string>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &quot;de Finibus Bonorum et Malorum&quot; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Why do we use it?</string>
+		<key>desc</key>
+		<string>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &apos;Content here, content here&apos;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &apos;lorem ipsum&apos; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Where can I get some?</string>
+		<key>desc</key>
+		<string>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&apos;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&apos;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Short Note</string>
+		<key>desc</key>
+		<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Lorem Ipsum</string>
+		<key>desc</key>
+		<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum efficitur ante sed congue. Vestibulum molestie odio non vestibulum dictum. Aliquam ultrices ex a malesuada ornare. Aliquam mollis, dolor aliquet commodo molestie, massa orci dignissim diam, quis ultrices mauris libero quis odio. Quisque vehicula nibh ac porttitor condimentum. Phasellus in velit rhoncus, pharetra tellus convallis, lobortis elit. Nam accumsan non nisl eu semper. Cras viverra consequat metus, eu fermentum odio placerat sed. Donec scelerisque ante in laoreet sodales. Vivamus magna est, posuere non viverra in, varius ac lectus. Curabitur sed tincidunt ipsum, sit amet cursus metus. Duis posuere sapien dui, ut convallis erat viverra in. Sed in porttitor nibh, ac ullamcorper dui. Vivamus ac metus eros.\n\nVestibulum mollis tellus elit, at maximus urna facilisis sit amet. Donec ornare, tellus at sagittis dignissim, mauris odio viverra velit, non varius quam ante rutrum ex. Proin ut purus in nulla fringilla finibus. Phasellus aliquet sodales egestas. Ut id felis id enim accumsan malesuada. Curabitur hendrerit eu elit eget ultrices. Nullam mollis varius ipsum, et laoreet est tristique sed. Vivamus ornare felis a ligula pretium eleifend id quis elit. Ut non leo sollicitudin, laoreet justo ultricies, volutpat nibh. Mauris gravida orci neque, a ultrices sapien ullamcorper quis. Mauris et lobortis libero. Cras sit amet ligula eu enim fringilla feugiat. Praesent dictum consectetur scelerisque. Fusce aliquet nulla sed nunc tincidunt facilisis. Donec porta justo laoreet purus convallis, eu consequat ligula varius. Phasellus dignissim mi non aliquet convallis.\n\nMauris eu ligula ut ante interdum tincidunt. Suspendisse tempor accumsan aliquet. Nulla lacinia risus ac lacus suscipit gravida. Nulla venenatis imperdiet ex mollis pulvinar. Curabitur enim diam, consequat id risus at, hendrerit varius justo. Mauris semper nulla nec lorem rhoncus, consequat placerat purus pretium. Morbi ut ligula nec nulla iaculis consequat quis vel tellus.\n\nProin et facilisis odio. Sed sed mauris ligula. Aenean ornare interdum finibus. Morbi elit nibh, pulvinar vitae ante ac, imperdiet placerat purus. Pellentesque vel tellus sodales, porta turpis aliquet, gravida magna. In tristique, velit a egestas fringilla, augue elit aliquet mi, non dapibus ante ante vel urna. Vestibulum iaculis lorem eget mauris tempor tincidunt. Proin vulputate et massa quis auctor. Proin ac quam ac risus fringilla tempor. Duis accumsan magna nisl, ac pretium magna molestie nec.\n\nNulla facilisi. Nunc eget pulvinar dolor. Proin pharetra, lacus et lobortis rhoncus, augue erat pharetra mi, sit amet luctus ante elit eget erat. Phasellus elementum, leo ut pellentesque semper, diam nisl malesuada augue, sed vehicula nulla nisi quis elit. Nullam vitae rhoncus metus, nec mattis enim. Curabitur mattis nulla ut arcu condimentum, vel hendrerit turpis congue. Curabitur luctus consectetur lorem, a faucibus purus viverra ut. Vestibulum dapibus, justo eu vulputate volutpat, sapien risus auctor sem, at maximus orci enim id mi. Quisque a nibh id enim luctus imperdiet vitae sed ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc luctus quam vel lectus sodales, ut fringilla velit blandit. Nam lobortis libero sit amet mauris imperdiet, sed facilisis augue lacinia. Ut varius, ante eu blandit suscipit, risus metus imperdiet nibh, sit amet auctor felis tellus volutpat arcu.</string>
+	</dict>
+</array>
+</plist>
